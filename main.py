@@ -2,8 +2,8 @@ import asyncio
 
 import aiofiles
 
-file_1 = "text-1.txt"
-file_2 = "/Users/yuliaustinova/Documents/IT/Python test files-txt/text-2.rtf"
+file_1 = input("Введите путь первого файла: ")
+file_2 = input("Введите путь второго файла: ")
 
 
 async def count_txt(file):
